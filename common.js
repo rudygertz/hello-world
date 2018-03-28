@@ -1,3 +1,3 @@
 function sayIdiot(name) {
-    alert("${name} is an idiot!");
+    alert("${name} is an idiot!!");
     }
