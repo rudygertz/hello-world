@@ -12,14 +12,14 @@
             data-sap-ui-compatVersion="edge"
             data-sap-ui-preload="async">
     </script>
-    <script src="common.js"></script>
+
     <script>
         sap.ui.getCore().attachInit(function(){
             new sap.m.Text({
                 text: "Hello World!"
             }).placeAt("content");
-
-            sayIdiot("Rüdi");
+            //sap.m.MessageToast.show("what an idiot!");
+            sayIdiot();
         });
     </script>
 </head>

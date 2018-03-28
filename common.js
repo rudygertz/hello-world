@@ -1,3 +1,3 @@
-function sayIdiot(name) {
-    sap.m.MessageToast("${name}, Sie sind ein Idiot!");
+function sayIdiot() {
+    sap.m.MessageToast.show("what an idiot!");
     }
